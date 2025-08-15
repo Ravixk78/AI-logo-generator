@@ -44,6 +44,10 @@
 }
 
 :root {
+   --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 340 85% 55%; /* #ed1e61 convert to HSL: hsl(340,85%,55%) */
+  --primary-foreground: 0 0% 100%;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -79,6 +83,10 @@
 }
 
 .dark {
+    --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --primary: 340 85% 55%;
+  --primary-foreground: 0 0% 100%;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
